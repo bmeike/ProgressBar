@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="ProgressStyle">@style/progress</item>
+    </style>
+
+    <style name="progress">
+        <item name="android:background">@color/lightGrey</item>
+
+        <item name="progress_wire_radius">2dp</item>
+        <item name="progress_wire_color">@color/colorPrimary</item>
+
+        <item name="progress_ball_radius">10dp</item>
+        <item name="progress_ball_start_color">@color/colorPrimaryDark</item>
+        <item name="progress_ball_finish_color">@color/colorAccent</item>
+    </style>
+
+</resources>

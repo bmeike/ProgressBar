@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="progress_indicator">
+
+        <!-- Themes Names -->
+        <attr name="ProgressStyle" format="reference" />
+
+        <!-- Tag Attributes -->
+        <attr name="progress_wire_radius" format="dimension" />
+        <attr name="progress_wire_color" format="color" />
+
+        <attr name="progress_ball_radius" format="dimension" />
+        <attr name="progress_ball_start_color" format="color" />
+        <attr name="progress_ball_finish_color" format="color" />
+
+    </declare-styleable>
+
+</resources>
